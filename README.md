@@ -13,16 +13,17 @@ pip install --upgrade pip
 
 Get Apache Beam
 Create and activate a virtual environment
-
+```
 python -m venv /path/to/directory
-
+```
 Download and install
 Install the latest Python SDK from PyPI:
-
+```
 pip install apache-beam
-
+```
 Add wordcount.py
 
 Then run the following command
-
+```
 python -m apache_beam.examples.wordcount --input /path/to/inputfile --output /path/to/write/counts
+```
